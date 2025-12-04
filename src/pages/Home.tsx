@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Layers, Grid2X2 } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import grocerImage from "@/assets/grocer-image.svg";
 import tvBitsImage from "@/assets/tv-bits.png";
 import lvTechImage from "@/assets/lv-tech.png";
 import mindHushImage from "@/assets/mind-hush.png";
@@ -72,6 +72,12 @@ const caseStudies = [
     description: "Technician Services Project",
     image: lvTechImage,
     link: "/projects/lv-tech",
+  },
+  {
+    name: "Grocer at Home",
+    description: "Mobile Application Design",
+    image: grocerImage,
+    link: "/projects/grocer-case-study",
   },
 ];
 const tools = [

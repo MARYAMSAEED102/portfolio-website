@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import grocerImage from "@/assets/grocer-image.svg";
 import tvBitsImage from "@/assets/tv-bits.png";
 import lvTechImage from "@/assets/lv-tech.png";
 import mindHushImage from "@/assets/mind-hush.png";
@@ -59,6 +59,12 @@ const caseStudies = [
     name: "LV Tech",
     description: "Technician Services Project",
     image: lvTechImage,
+    link: "/projects/lv-tech",},
+  {
+    name: "Grocer at Home",
+    description: "Mobile Application Design",
+    image: grocerImage,
+    link: "/projects/grocer-case-study",
   },
 ];
 
